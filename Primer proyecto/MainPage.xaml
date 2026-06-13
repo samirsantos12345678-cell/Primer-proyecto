@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Primer_proyecto.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="30" Spacing="25">
+            <Image Source="dotnet_bot.png" HeightRequest="200" />
+            <Label Text="¡Hola Mundo MAUI!"
+                   FontSize="32"
+                   HorizontalOptions="Center"
+                   TextColor="#2B3C5A" />
+            <Button Text="Presióname"
+                    BackgroundColor="#512BD4"
+                    Clicked="OnCounterClicked" />
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Primer_proyecto.Views.PageAddPersonas"
+             Title="PageAddPersonas">
+    <VerticalStackLayout Padding="20">
+        <Entry x:Name="Nombre" Placeholder="Nombre" />
+        <Entry x:Name="Apellido" Placeholder="Apellido " />
+        <DatePicker x:Name="FechaNac" />
+        <Entry x:Name="Correo" Placeholder="Correo" />
+        <Entry x:Name="Telefono" Placeholder="Teléfono"  />
+
+        <Button x:Name="btnguardar" Clicked="btnguardar_Clicked" />
+
+    </VerticalStackLayout>
+</ContentPage>
